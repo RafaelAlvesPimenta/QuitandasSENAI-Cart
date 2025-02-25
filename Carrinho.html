@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Carrinho.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Minha Loja</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Home.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="Carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle">☰</button>
+    </header>
+
+    <div id="table-carrinho">
+
+    </div>
+
+    <table id="tableCart">
+        <thead id="carinho">
+            <tr>
+                <th>Produtos:</th>
+                <th>Total:</th>
+                <th>Quantidade:</th>
+                <th>Remover Produto:</th>
+            </tr>
+        </thead>
+        <tbody id="products-in-cart">
+
+        </tbody>
+    </table>
+
+    <div class="price-total">
+        <strong class="total-cart">Total:</strong>
+        <span id="span-total"></span>
+    </div>
+
+    <button id="button-comprar">Finalizar compra</button>
+
+    <div id="backend-window-compra">
+    <div id="window-finalizar-compra">
+        <h1 id="txt-Forma-pagamento">Forma de pagamento:</h1>
+        <button class="button-pagamento">
+            PIX
+        </button>
+        <button class="button-pagamento">
+            Debito
+        </button>
+        <button class="button-pagamento">
+            Credito
+        </button>
+        <button class="button-pagamento">
+            Boleto
+        </button>
+        <button id="button-cancelar-compra">
+            Cancelar
+        </button>
+    </div>
+</div>
+
+<div id="backend-window-compra-realizada">
+    <div id="window-compra-finalizada">
+        <button id="close-window-compraF">X</button>
+        <h3 id="h3-CompraRealizada">Compra Realizada com sucesso</h3>
+        <h4 id="h4-PedidoaCaminho">Pedido a Caminho</h4>
+    </div>
+</div>
+
+<div id="orders"></div>
+
+
+<script async src="Carrinho.js"></script>
+<script src="header.js"></script>
+</body>
+</html>

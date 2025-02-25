@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url();
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table,tr{
+    border: solid black 1px ;
+    text-align: center;
+}
+th{
+    margin: 10vh;
+}
+tr{
+    border: none;
+    margin: 0%;
+}
+#tableCart{
+    width: 50%;
+    margin-inline: 25%;
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 1.5vh;
+    background-color: rgba(240, 248, 255, 0.733);
+}
+.cart-img-product{
+    border-radius: 1.5vh;
+    max-width: 50%;
+    min-width: 50%;
+}
+.cart-product-price{
+    font-size: 150%;
+
+}
+.td-product{
+    align-items: center;
+    display: flex;
+    padding: 0;
+}
+.title-product-cart{
+    font-size: 120%;
+    margin: 1%;
+}
+.remove-product-cart{
+    border: none;
+    border-radius: 1vh;
+    padding: 0.8vh;
+    background-color: rgb(255, 21, 21);
+    cursor: pointer;
+    color: black;
+}
+
+.price-total{
+    margin: 1%;
+    margin-left: 40%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.5vh;
+}
+.total-cart{
+    margin-inline: 1%;
+}
+#button-comprar{
+    cursor: pointer;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 1.5vh;
+    padding: 1%;
+    position: absolute;
+    left: 80%;
+}
+#button-comprar:hover{
+    font-size: 90%;
+    transition: 0.2s;
+}
+#window-finalizar-compra{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    top: 10%;
+    border: solid black 1px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5vh;
+}
+#backend-window-compra{
+    display: none;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+.button-pagamento{
+    margin: 0.5%;
+    font-size: 100%;
+    text-align: initial;
+    padding: 1vh;
+    width: 40%;
+    height: 10%;
+}
+#button-cancelar-compra{
+    cursor: pointer;
+    margin-top: 2%;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: red;
+    font-size: 150%;
+}
+#txt-Forma-pagamento{
+    margin-bottom: 5%;
+}
+
+/* window compra finalizada */
+#backend-window-compra-realizada{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+#window-compra-finalizada{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    top: 10%;
+    border: solid black 1px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5vh;
+    padding-top: 10%;
+}
+#close-window-compraF{
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 92%;
+    border-radius: 40%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    border: none;
+    padding: 1vh;
+}
+#h3-CompraRealizada{
+    font-size: 180%;
+margin-bottom: 20%;
+}
+#h4-PedidoaCaminho{
+    cursor: pointer;
+    background-color: rgb(217, 255, 255);
+    padding: 2vh;
+}
+#h4-PedidoaCaminho:hover{
+    color: red;
+    transition: 0.4s;
+}
+#close-window-compraF:hover{
+    color: red;
+    transition: 0.4s;
+}
