@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-
+ console.log("O HTML foi carregado e analisado.");
+    
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 
